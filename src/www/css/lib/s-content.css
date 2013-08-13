@@ -1,0 +1,73 @@
+#content {opacity: 0;}
+#content .scene {background-color: #000000;}
+
+
+#content .list {position: absolute; z-index: 20; text-align: center; left: 0; width: 100%; top: 50%; height: 350px; margin: -175px 0 0; overflow: hidden; font-size: 0;}
+#content .list ul {display: inline-block; vertical-align: top; padding: 0; font-size: 0; text-align: left;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#content .list li {height: 350px; display: inline-block; vertical-align: top; padding: 0; position: relative; background-repeat: no-repeat; background-position: top left; cursor: pointer;}
+#content .list li h2 {position: absolute; left: 0; bottom: 0; width: 100%; height: 40px; background: rgba(0,0,0,0.5); padding: 0;
+	display: none;
+}
+#content .list li a {display: block; white-space: nowrap; padding: 15px;}
+
+
+.front #content .scene {position: absolute; z-index: 20; text-align: center; left: 0; width: 100%; top: 50%; height: 350px; margin: -175px 0 0; overflow: hidden; font-size: 0;}
+.front #content ul {display: inline-block; vertical-align: top; padding: 0; font-size: 0; text-align: left;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+.front #content li {height: 350px; display: inline-block; vertical-align: top; padding: 0; position: relative; background-repeat: no-repeat; background-position: top left; cursor: pointer;}
+.front #content li h2 {position: absolute; left: 0; bottom: 0; width: 100%; height: 40px; background: rgba(0,0,0,0.5); padding: 0;}
+.front #content li a {display: block; white-space: nowrap; padding: 15px;}
+
+#content .scene .controls {position: absolute; z-index: 30; right: 0; width: 75px; top: 50%; height: 200px; margin: -100px 0 0; overflow: hidden; font-size: 0;}
+#content .scene .controls .right {width: 75px; height: 100px; background: transparent url(/img/bg_controls.png) no-repeat 0 11px; cursor: pointer;}
+#content .scene .controls .left {width: 75px; height: 100px; background: transparent url(/img/bg_controls.png) no-repeat 0 -89px; cursor: pointer;}
+
+
+
+
+.contact #content .scene {position: absolute; z-index: 20; top: 50%; left: 50%; margin-left: -175px; margin-top: -75px; padding: 15px; overflow: hidden; width: 350px; height: 150px;}
+.contact #content .vcard {opacity: 0;}
+.contact #content .vcard * {font-size: 18px; line-height: 26px; font-style: normal; text-align: center;}
+.contact #content div.tel {padding-top: 26px;}
+
+
+.help #content .scene {}
+.help #content h2 {font-size: 120%; padding: 40px 40px 30px;}
+.help #content p {padding: 0 40px 20px;}
+.help #content ul {margin: 0 40px 40px;}
+
+
+
+.pageintro {position: absolute; z-index: 25; left: 0; top: 0; width: 100%; height: 100%; z-index: 1000; background-position: center center; background-repeat: no-repeat; background-color: #000000; opacity: 0;}
+.pageintro h1 {position: absolute; left: 0; top: 50%; width: 100%; height: 30px; margin-top: -15px; text-align: center;}
+
+
+/* height set by javascript */
+#fullscreen {position: absolute; z-index: 50; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; background-color: rgba(0, 0, 0, 0.8); opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen h2 {display: none;}
+#fullscreen ul {padding: 0; overflow: hidden; font-size: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen li {display: inline-block; vertical-align: top; width: auto; background-repeat: no-repeat; background-position: center center; height: 100%;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen li.loading {background-image: url(/img/gx_loader.gif) !important;}
+
+#fullscreen .controls {position: absolute; z-index: 55; right: 0; width: 75px; top: 50%; height: 200px; margin: -100px 0 0; font-size: 0;}
+#fullscreen .controls .right {width: 75px; height: 100px; background: transparent url(/img/bg_controls.png) no-repeat 0 11px; cursor: pointer;}
+#fullscreen .controls .left {width: 75px; height: 100px; background: transparent url(/img/bg_controls.png) no-repeat 0 -89px; cursor: pointer;}
+#fullscreen .close {position: absolute; z-index: 55; left: 0px; top: 0px; width: 75px; height: 75px; background: transparent url(/img/bn_close.png) no-repeat center center; cursor: pointer;}
+
+
+#content .hint_a {position: absolute; right: 0; top: 50%; width: 100px; height: 100px; text-align: center; margin-top: -50px; text-shadow: 3px 0px 15px #000000; font-size: 100px; font-family: "GillSans"; font-weight: bold; opacity: 0; line-height: 80px;}
+
+
+/* GOLBAL JS ERROR MESSAGE */
+#error {position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: #000000; text-align: center;}
+#error .wrap {position: absolute; top: 50%; left: 50%; width: 300px; height: 100px; margin-top: -50px; margin-left: -150px;}
+#error .smaller {font-size: 13px;}

@@ -1,0 +1,8 @@
+#navigation {display: inline-block; vertical-align: top;}
+#navigation ul {padding: 0; font-size: 0;}
+#navigation li {display: inline-block; vertical-align: top; padding: 20px 0 20px 13px; cursor: pointer;}
+
+#navigation li h2 a {color: #b1b3b6; text-transform: uppercase;}
+#navigation li:hover h2 a,
+#navigation li.selected h2 a {color: #ffffff;}
+

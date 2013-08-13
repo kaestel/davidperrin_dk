@@ -1,0 +1,3 @@
+#footer .copyright {position: absolute; right: 10px; bottom: 0px; height: 20px; overflow: hidden; font-size: 11px; color: #666666;}
+#footer .copyright span {float: left; opacity: 0; color: inherit; font-size: inherit;}
+#footer .copyright:hover span {opacity: 1;}

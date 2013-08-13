@@ -1,0 +1,32 @@
+
+/*s-page-mobile_light.css*/
+* {font-family: sans-serif; color: white;}
+body {margin: 0; background: black;}
+h1 {margin: 0; padding: 0 10px 10px; font-size: 140%; font-weight: normal;}
+h2 {margin: 0; padding: 0 10px 5px; font-size: 110%; font-weight: normal;}
+h3 {margin: 0; padding: 0 10px; font-size: 100%; font-weight: normal;}
+p {margin: 0; padding: 0 10px; font-size: 100%;}
+a {}
+ul {list-style: none; margin: 0; padding: 0 0 10px;}
+li {padding: 0 10px;}
+#page {padding: 10px 0;}
+#header {border-bottom: 1px solid #333333; }
+#content img {width: 100%;}
+#content ul {padding: 0;}
+#content li {padding: 10px; border-bottom: 1px solid #333333; border-top: 1px solid #000000; background-color: #111111;}
+#navigation li {padding: 10px; border-bottom: 1px solid #333333; border-top: 1px solid #111111; background-color: #222222;}
+#navigation li.selected h3 {font-weight: bold;}
+.servicenavigation li {display: inline;}
+.front .servicenavigation .front a {font-weight: bold;}
+.contact .servicenavigation .contact a {font-weight: bold;}
+.vcard {padding: 10px; font-style: normal;}
+.help #content h2 {padding: 10px 10px}
+.help #content h3 {padding: 0 0 5px}
+.help #content h3 a {font-size: 120%;}
+.help #content p {padding: 0 10px;}
+.help #content ul {margin: 10px 0px 10px;}
+.help #content li {padding: 10px;}
+.help #content li p {padding: 0;}
+.copyright {padding: 10px;}
+.copyright,
+.copyright * {font-size: 90%; color: #888888}

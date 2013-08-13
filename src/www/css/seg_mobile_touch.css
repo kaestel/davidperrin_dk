@@ -1,0 +1,133 @@
+
+/*s-fonts.css*/
+@font-face {
+	font-family: 'DavidPerrin';
+	src: url('/css/fonts/texgyreadventor-regular-webfont.woff') format('woff'),
+		 url('/css/fonts/texgyreadventor-regular-webfont.ttf') format('truetype'),
+		 url('/css/fonts/texgyreadventor-regular-webfont.svg#TeXGyreAdventorRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*s-page.css*/
+* {font-family: "Helvetica", Arial, sans-serif; font-weight: normal; color: #ffffff; font-size: 14px; line-height: 1em;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+html {height: 100%;}
+body {margin: 0; height: 100%; background: #000000 url(/img/gx_loader.gif) no-repeat center center;}
+h1, h2, h3, p {margin: 0;}
+h1 {padding: 0; font-size: 18px;}
+h2 {padding: 0;}
+h3 {padding: 0;}
+p {padding: 0;}
+a {text-decoration: none;}
+ul {list-style: none; margin: 0; padding: 0 0 10px; overflow: hidden;}
+li {padding: 0; overflow: hidden;}
+.c {overflow: hidden; clear: both;}
+.c50, .c100, .c150, .c200, .c300, .c400, .c500 {overflow: hidden; min-height: 10px;}
+#page {height: 100%; position: relative; opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+
+/*s-header-mobile_touch.css*/
+#header {height: 55px; position: relative; z-index: 10; background: rgba(0,0,0,0.8);}
+#header h1 {position: absolute; top: 20px; left: 20px; cursor: pointer;}
+
+
+/*s-content-mobile_touch.css*/
+#page {height: 2000px; background: #000000;}
+@media all and (min-width: 480px) {
+	#page {height: 2000px;}
+}
+#content {position: absolute; top: 0; left: 0; width: 100%; opacity: 0; z-index: 5;}
+#content {}
+#content .scene {background-color: #000000; padding-top: 55px;}
+#content .list {padding: 0;}
+#content .list ul {display: block; width: 100%; height: 100%; padding: 0; text-align: left; overflow: hidden; position: relative;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#content .list li {width: 100%; height: 100%; display: block; padding: 0; background-repeat: no-repeat; background-position: center center; cursor: pointer;
+	position: absolute; top: 0; left: 0; 
+	background-color: #000000;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#content .list li.loading,
+#content .list li.waiting {background: #000000 url(/img/gx_loader.gif) no-repeat center center;}
+#content .list li.landscape {background-size: 100% auto;}
+#content .list li h2 {display: none;}
+#content .list li a {display: block; white-space: nowrap; padding: 15px;}
+.front #content .scene {}
+.front #content ul {text-align: left; display: block; padding: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+.front #content li {height: 0px; display: block; background-repeat: no-repeat; background-position: top left; cursor: pointer;
+	border-bottom: 1px solid #333333;
+}
+.front #content li h2 {padding: 0; width: 100%; height: 100%; display: table;}
+.front #content li h2 a {display: table-cell; vertical-align: middle; background: transparent url(/img/mobile_touch/bg_next.png) no-repeat right center; padding: 20px 60px 20px 20px; font-size: 16px;}
+#content .scene .controls {position: absolute; z-index: 30; right: 0; width: 70px; top: 50%; height: 140px; margin: -70px 0 0; overflow: hidden; font-size: 0;}
+#content .scene .controls .next {width: 70px; height: 70px; background: transparent url(/img/mobile_touch/bg_icons.png) no-repeat right 7px; cursor: pointer;}
+#content .scene .controls .prev {width: 70px; height: 70px; background: transparent url(/img/mobile_touch/bg_icons.png) no-repeat right -93px; cursor: pointer;}
+.contact #content .scene {padding: 0;}
+.contact #content .vcard {opacity: 0; position: absolute; z-index: 5; top: 50%; left: 50%; margin-left: -125px; margin-top: -70px; width: 250px; height: 140px;}
+.contact #content .vcard * {font-style: normal; text-align: center; font-size: 16px; line-height: 24px;}
+.contact #content div.tel {padding-top: 24px;}
+.help #content .scene {}
+.help #content h2 {font-size: 120%; padding: 40px 40px 30px;}
+.help #content p {padding: 0 40px 20px;}
+.help #content ul {margin: 0 40px 40px;}
+.pageintro {position: absolute; z-index: 25; left: 0; top: 0; width: 100%; height: 100%; z-index: 1000; background-position: center center; background-repeat: no-repeat; background-color: #000000; opacity: 0;}
+.pageintro h1 {position: absolute; left: 0; top: 50%; width: 100%; height: 30px; margin-top: -15px; text-align: center;}
+#fullscreen {position: absolute; z-index: 50; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; background-color: rgba(0, 0, 0, 0.8); opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen h2 {display: none;}
+#fullscreen ul {padding: 0; overflow: hidden; font-size: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen li {display: inline-block; vertical-align: top; width: auto; background-repeat: no-repeat; background-position: center center; height: 100%;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen li.loading {background-image: url(/img/gx_loader.gif) !important;}
+#fullscreen .controls {position: absolute; z-index: 55; right: 0; width: 75px; top: 50%; height: 200px; margin: -100px 0 0; font-size: 0;}
+#fullscreen .controls .right {width: 75px; height: 100px; background: transparent url(/img/bg_controls.png) no-repeat 0 11px; cursor: pointer;}
+#fullscreen .controls .left {width: 75px; height: 100px; background: transparent url(/img/bg_controls.png) no-repeat 0 -89px; cursor: pointer;}
+#fullscreen .close {position: absolute; z-index: 55; left: 0px; top: 0px; width: 75px; height: 75px; background: transparent url(/img/bn_close.png) no-repeat center center; cursor: pointer;}
+#content .hint_a {position: absolute; right: 0; top: 50%; width: 100px; height: 100px; text-align: center; margin-top: -50px; text-shadow: 3px 0px 15px #000000; font-size: 100px; font-family: "GillSans"; font-weight: bold; opacity: 0; line-height: 80px;}
+#error {position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: #000000; text-align: center;}
+#error .wrap {position: absolute; top: 50%; left: 50%; width: 300px; height: 100px; margin-top: -50px; margin-left: -150px;}
+#error .smaller {font-size: 13px;}
+
+
+/*s-footer.css*/
+#footer .copyright {position: absolute; right: 10px; bottom: 0px; height: 20px; overflow: hidden; font-size: 11px; color: #666666;}
+#footer .copyright span {float: left; opacity: 0; color: inherit; font-size: inherit;}
+#footer .copyright:hover span {opacity: 1;}
+
+
+/*s-navigation-mobile_touch.css*/
+#header .navigation {padding: 55px 0 0; height: 0px; width: 80px; position: absolute; top: 0; right: 0; z-index: 20; overflow: hidden;
+	display: block;
+}
+#header .navigation .gx {position: absolute; top: 0px; right: 0px; width: 80px; height: 55px;
+	background: transparent url(/img/mobile_touch/bg_icons.png) no-repeat 10px -185px;
+}
+#header .navigation ul {padding: 0; background: rgba(0,0,0,0.9);}
+#header .navigation li {display: block; padding: 20px; cursor: pointer;
+	border-bottom: 1px solid #333333;
+}
+#header .navigation li a {color: #b1b3b6; text-transform: uppercase; font-weight: bold;}
+#header .navigation li:hover a,
+#header .navigation li.selected a {color: #ffffff;}
+
+
+/*s-servicenavigation-mobile_touch.css*/
+#page .servicenavigation .front a {}
+#page .servicenavigation .contact a {}
+#page .servicenavigation .top {display: none;}
+#page .servicenavigation .segments {display: none;}
+#page .servicenavigation .navigation {display: none;}
+

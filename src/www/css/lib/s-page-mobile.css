@@ -1,0 +1,12 @@
+h1 {font-weight: lighter;}
+h2 {font-weight: lighter;}
+h3 {font-weight: lighter;}
+
+.servicenavigation .navigation {display: none;}
+.servicenavigation .top {display: none;}
+
+.front .servicenavigation .front {display: none;}
+
+a {text-decoration: none;}
+
+#content li {background-repeat: no-repeat; padding: 5px 0 0 75px;}

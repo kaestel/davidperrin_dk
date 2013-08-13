@@ -1,0 +1,22 @@
+.servicenavigation {display: inline-block; vertical-align: top;}
+.servicenavigation ul {padding: 0 0 0 30px; font-size: 0; }
+.servicenavigation li {display: inline-block; vertical-align: top; padding: 20px 0 18px; cursor: pointer;}
+.servicenavigation li a {display: block; color: #b1b3b6; text-transform: uppercase; padding: 0 13px 2px 0;}
+.servicenavigation li:hover a,
+.servicenavigation li.selected a {color: #ffffff;}
+
+/*.servicenavigation .front {display: none;}*/
+.servicenavigation .front a {}
+.servicenavigation .contact a {border-right: 1px solid #b1b3b6;
+	
+/*	text-indent: -1000px; width: 50px; height: 50px; background-position: 0 -100px;*/
+	
+}
+.servicenavigation .top {display: none;}
+.servicenavigation .top a {text-indent: -1000px; width: 50px; height: 50px; background-position: 0 -50px;}
+
+
+.servicenavigation .segments {display: none;}
+.servicenavigation .navigation {display: none;}
+/*.servicenavigation .top {position: absolute; top: 10px; left: 140px;}*/
+

@@ -1,0 +1,1 @@
+u.segment = "mobile_touch";

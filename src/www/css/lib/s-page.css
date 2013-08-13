@@ -1,0 +1,24 @@
+* {font-family: "Helvetica", Arial, sans-serif; font-weight: normal; color: #ffffff; font-size: 14px; line-height: 1em;
+	/*text-shadow: #aaaaaa 0px 0px 1px;*/
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+html {height: 100%;}
+body {margin: 0; height: 100%; background: #000000 url(/img/gx_loader.gif) no-repeat center center;}
+
+h1, h2, h3, p {margin: 0;}
+h1 {padding: 0; font-size: 18px;}
+h2 {padding: 0;}
+h3 {padding: 0;}
+p {padding: 0;}
+a {text-decoration: none;}
+ul {list-style: none; margin: 0; padding: 0 0 10px; overflow: hidden;}
+li {padding: 0; overflow: hidden;}
+
+.c {overflow: hidden; clear: both;}
+.c50, .c100, .c150, .c200, .c300, .c400, .c500 {overflow: hidden; min-height: 10px;}
+
+#page {height: 100%; position: relative; opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}

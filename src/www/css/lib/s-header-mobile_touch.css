@@ -1,0 +1,2 @@
+#header {height: 55px; position: relative; z-index: 10; background: rgba(0,0,0,0.8);}
+#header h1 {position: absolute; top: 20px; left: 20px; cursor: pointer;}

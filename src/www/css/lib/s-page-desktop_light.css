@@ -1,0 +1,64 @@
+* {font-family: sans-serif; color: #ffffff; font-size: 16px;}
+
+html {}
+body {background: #000000; margin: 0;}
+
+h1, h2, h3, p {margin: 0; font-weight: lighter;}
+h1 {padding: 0 0 10px; font-size: 180%;}
+h2 {padding: 0 0 5px; font-size: 140%;}
+h3 {padding: 0;}
+p {padding: 0;}
+a {}
+ul {list-style: none; margin: 0; padding: 0 0 10px; overflow: hidden;}
+li {padding: 0; overflow: hidden;}
+
+
+.c {overflow: hidden; clear: both;}
+.c50, .c100, .c150, .c200, .c300, .c400, .c500 {overflow: hidden;}
+
+
+#page {position: relative; overflow: hidden; padding: 20px;}
+
+#header {padding: 10px 0 20px; overflow: hidden;}
+
+#navigation {overflow: hidden;}
+#navigation ul {display: block; padding: 10px 0 0;}
+#navigation li {padding: 0 0 10px; float: left; padding: 0 20px 0 0;}
+#navigation .ready li {display: inline; float: left; padding: 253px 0 0; margin-right: 20px; background-repeat: no-repeat; text-align: left; width: 250px; height: 40px;}
+#navigation li a {white-space: nowrap;}
+#navigation li.selected h3 {font-weight: bold;}
+
+.front #navigation ul {display: block; padding: 0;}
+
+#footer .copyright {padding: 10px 0;}
+#footer .copyright span {font-size: 80%;}
+
+.list {overflow: hidden;}
+.list ul {display: block;}
+.list li {padding: 0 0 10px;}
+.list .ready li {display: inline; float: left; padding: 253px 0 0; margin-right: 20px; background-repeat: no-repeat; text-align: left; width: 250px; height: 40px;}
+.list li a {white-space: nowrap;}
+
+.view {padding-bottom: 20px;}
+
+.servicenavigation ul {padding: 0;}
+.servicenavigation li {float: left; padding: 0 20px 0 0;}
+.servicenavigation li a {display: block;}
+
+.servicenavigation .navigation {display: none;}
+.servicenavigation .top {display: none;}
+
+#content address {padding: 20px 0; font-style: normal;}
+#content address div.tel,
+#content address div.adr {padding-bottom: 10px;}
+
+.help #content {background: black;}
+.help #content h2 {}
+.help #content h3 {padding: 0 0 5px}
+.help #content h3 a {font-size: 120%;}
+.help #content p {padding: 0 0 0px;}
+.help #content ul {margin: 0 0px 10px;}
+.help #content li {margin: 10px 0;}
+
+div.segments {background: white; color: black; padding: 20px;}
+div.segments * {color: black;}

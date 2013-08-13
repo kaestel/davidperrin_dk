@@ -1,0 +1,18 @@
+#header .navigation {padding: 55px 0 0; height: 0px; width: 80px; position: absolute; top: 0; right: 0; z-index: 20; overflow: hidden;
+
+	display: block;
+}
+#header .navigation .gx {position: absolute; top: 0px; right: 0px; width: 80px; height: 55px;
+	background: transparent url(/img/mobile_touch/bg_icons.png) no-repeat 10px -185px;
+}
+
+
+#header .navigation ul {padding: 0; background: rgba(0,0,0,0.9);}
+#header .navigation li {display: block; padding: 20px; cursor: pointer;
+	border-bottom: 1px solid #333333;
+}
+#header .navigation li a {color: #b1b3b6; text-transform: uppercase; font-weight: bold;}
+#header .navigation li:hover a,
+#header .navigation li.selected a {color: #ffffff;}
+
+
