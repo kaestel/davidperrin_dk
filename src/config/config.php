@@ -13,7 +13,7 @@ error_reporting(E_ALL);
 define("SITE_UID", "DPD");
 define("SITE_NAME", "davidperrin.dk");
 define("SITE_DB", "davidperrin");
-define("SITE_URL", "davidperrin.dk");
+define("SITE_URL", $_SERVER["SERVER_NAME"]);
 define("ADMIN_FRONT", "/sites/navigation.php");
 
 define("DEFAULT_LANGUAGE_ISO", "EN"); // Regional language Danish
